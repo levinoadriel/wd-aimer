@@ -1,2 +1,2 @@
 highlighter: pygments
-permalink: none
+permalink: :title.html
