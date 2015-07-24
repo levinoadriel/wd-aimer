@@ -1,0 +1,91 @@
+---
+layout: default
+title: Josh &amp; Hanna
+---
+
+<!-- content -->
+<div class="page-content">
+  
+  <div class="row">
+    <div class="col-xs-10 col-xs-offset-1">
+      <!-- page title -->
+      <h2 class="title1 couple-title1 title1-border">Rsvp</h2>  
+      <!-- /page title -->
+      <div class="row">
+        <!-- RSVP -->
+        <div class="col-sm-4 rsvp-text">
+          <h3 class="title4">Please fll our RSVP Form</h3>
+          <p>Kindly respond by March 28, 2016. We look forward to celebrating with you!</p>               
+        </div>
+        <div class="col-sm-8">
+
+          <!-- Contact Form -->
+          <form id="contactForm"> 
+            <!-- Form Field -->        
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" class="form-control required" placeholder="Name"/>
+            </div>   
+            <!-- /Form Field -->   
+            <div class="row">
+              <div class="col-md-6">
+                <!-- item -->            
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" id="email" name="email" class="form-control required" placeholder="Email"/>
+                </div>    
+                <!-- /item -->
+              </div>
+              <div class="col-md-6">
+                <!-- item -->            
+                <div class="form-group">
+                  <label for="guests">How many guests?</label>
+                  <input type="text" class="form-control" name="guests" id="guests" placeholder="Number of Guests" required>
+                </div>    
+                <!-- /item -->
+              </div>
+            </div>  
+            <!-- item -->            
+            <div class="form-group">
+              <label for="attending">I am attending:</label>
+              <select name="attending" id="attending" class="form-control">
+                <option value="All Events">All Events</option>
+                <option value="The Ceremony">The Ceremony</option>
+                <option value="The Party">The Party</option>
+              </select>
+            </div>    
+            <!-- /item -->
+            <!-- Form Field -->                 
+            <div class="form-group"> 
+              <label for="message">Message (optional):</label>
+              <textarea class="form-control required" id="message" name="message" placeholder="Message"></textarea>
+            </div>    
+            <!-- /Form Field -->           
+            <!-- Form Field -->  
+            <div class="form-group form-send">
+              <button type="submit" value="" class="btn btn-1c"><span class="fa fa-paper-plane"> &nbsp;</span>send</button>
+              <!--<input type="submit" value="Send" class="btn btn-1c"/>-->
+            </div>   
+            <!-- /Form Field -->                  
+          </form> 
+          <!-- / Contact form -->
+          <!-- Form - Success Message --> 
+          <div id="contactSuccess" class="contact-feedback">Your message has been sent!</div>   
+          <!-- /Form - Sucess Message -->
+          <!-- Form - Error Message -->
+          <div id="contactError" class="contact-feedback">Error</div>
+          <!-- /form - Error Message -->
+          
+          <div class="form">
+          </div>
+          <div class="wait">Sending...</div>
+          <div class="error">A error ocurred..</div>
+          <div class="success">Your message has been sent!</div>
+        </div>
+        <!-- /RSVP -->
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!-- /content -->
