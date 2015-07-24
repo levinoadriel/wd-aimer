@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }}</title>
+<!-- Favicons
+================================================== -->
+<link rel="shortcut icon" href="favicon2.ico" type="image/x-icon">
+<link rel="icon" href="favicon2.ico" type="image/x-icon">
+<!-- / Favicons
+================================================== -->
+{% include styles.html %}
+</head>
+<body>
+{% include pageloader.html %}
+<!-- === PAGE BACKGROUND === -->
+<!-- Background container -->
+<div class="page-background-container viewport">
+  <!-- background-mask -->
+  <div class="bg-mask viewport"></div>
+  <!-- /background-mask -->
+  <!-- background-slideshow -->
+  <div class="bg-slideshow">
+    <!-- slideshow-item -->
+    <div class="page-background viewport" style="background-image: url('img/slide-bg1.jpg')"></div>
+    <!-- /slideshow-item -->  
+  </div>
+  <!--/Background-slideshow -->
+</div>
+<!-- Background-container -->
+<!-- === /PAGE BACKGROUND === -->
+
+<!-- Main Content
+================================================== -->
+<div id="body" class="viewport animated">
+  <div class="container">
+    <div class="boxed-content"> 
+      {% include header.html %}
+      {{ content }}
+      {% include footer.html %}
+    </div>
+  </div>
+</div>
+<!-- /Main Content
+================================================== -->
+
+{% include analytics.html %}
+{% include scripts.html %}
+</body>
+</html>
